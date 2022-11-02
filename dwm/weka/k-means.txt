@@ -1,0 +1,9 @@
+*****************
+K-Means Clusering :
+
+    • Load the .arff/.csv file.
+    • Go to Preprocess -> Clustering -> Choose -> clusters -> SimpleKMeans
+    • Invoke clusering by clicking “start” button
+    • Right click on K-Means Result Set, then click on Visualize cluster assingments
+
+*****************

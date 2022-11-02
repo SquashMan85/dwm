@@ -1,0 +1,64 @@
+#Variables
+a <- "hi"
+d <- 15
+
+#printing class type
+print(class(a))
+
+#create a vector
+states <- c("mah","goa","kar")
+
+#create a list
+list1 <- list(c(15,23,45),34.2,"hello")
+print(list[1])
+
+#create a matrix
+A = matrix(
+  # Taking sequence of elements
+  c(1, 2, 3, 4, 5, 6, 7, 8, 9),
+  # No of rows
+  nrow = 3,
+  # No of columns
+  ncol = 3,
+  # By default matrices are in column-wise order
+  # So this parameter decides how to arrange the matrix
+  byrow = TRUE
+)
+print(A[2,2])
+
+#create an array
+g <- array(c("green","yellow"),dim = c(3,3,2))
+
+
+#creating a dataframe
+Name <- c("Jon", "Bill", "Maria", "Ben", "Tina")
+Age <- c(23, 41, 32, 58, 26)
+df <- data.frame(Name, Age)
+print (df)
+
+# creating a dataframe from csv
+print(getwd())
+data <- read.csv("Products.csv")
+print(data)
+max_val <- max(data$salaray)
+max_sal <- subset(data, salary == max(salary))
+data = edit(data)
+
+#Create Graphs
+x <- c(20,23,44)
+labels <- c("height", "lenght", "width")
+colors <- c("blue","green","yellow")
+pie(x,labels)
+pie (x,label = mylabel, main = "Population", col = colors)
+legend ("bottomright", mylabel, fill =  colors)
+
+#Bar Plot
+temp <- c(22, 27, 26, 24, 23, 26, 28)
+barplot(temp)
+
+#Line Chart
+v <- c(7,12,28,3,41)
+t <- c(14,7,6,19,3)
+plot(v,type = "o",col = "red", xlab = "Month", ylab = "Rain fall", main = "Rain fall chart")
+lines(t, type = "o", col = "blue")
+

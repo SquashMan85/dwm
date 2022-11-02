@@ -1,0 +1,18 @@
+*****************
+Missing Values :
+
+Weka→filters→unsupervized→attribute→ReplaceMissingValues.
+
+*****************
+
+*****************
+Missing Values :
+
+Weka→filters→unsupervized→attribute→ReplaceMissingValues.
+
+*****************
+Discretization
+
+Weka→filters→unsupervised→attribute→Discretize
+
+*****************

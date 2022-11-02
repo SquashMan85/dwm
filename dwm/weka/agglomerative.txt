@@ -1,0 +1,12 @@
+*****************
+Agglomerative Clustering:
+
+    • Load the .arff/.csv file.
+    • Go to Preprocess -> Cluster -> Choose -> clusters -> HierachicalCluster
+    • (Optional) You can set the distanceFunction by, default it is EuclideanDistance , Click Save
+    • Invoke clustering by clicking “start” button
+    • Result list is generated
+    • Right click on Result list then click Visualize tree.
+    • Right click on Result list then click Visualize cluster assignment.
+
+*****************

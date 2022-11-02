@@ -1,0 +1,13 @@
+*****************
+Association Rule Mining algorithm (Apriori) :
+
+    • Load the .arff/.csv file.
+    • Go to Preprocess -> Associate -> Choose -> associations -> Apriori
+    • Invoke clustering by clicking “start” button
+    • Result list is generated (rules are generated)
+    • (Optional) You can change metrixType(confidence), lowerbound-min-support etc...
+      by left click on Choose(Apriori), Click Save
+    • Right click on Result list then click Visualize tree.
+    • Right click on Result list then click Visualize cluster assignment.
+
+*****************
